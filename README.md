@@ -1,6 +1,6 @@
 # Paths 2 Victory
 
-Inspired by (this lovely Mike Bostock project)[https://source.opennews.org/articles/nyts-512-paths-white-house/] and (this lovely NPR Viz project)[http://blog.apps.npr.org/2012/11/13/election-2012-generating-the-combinations.html], this is a simple "paths to victory" generator for an arbitrary set of candidates in an electoral contest.
+Inspired by [this lovely Mike Bostock project](https://source.opennews.org/articles/nyts-512-paths-white-house/) and [this lovely NPR Viz project](http://blog.apps.npr.org/2012/11/13/election-2012-generating-the-combinations.html), this is a simple "paths to victory" generator for an arbitrary set of candidates in an electoral contest.
 
 ## Getting started
 
@@ -16,7 +16,7 @@ state	first_results	ev	swing	swing2	90pct12hr rating
 `90pct12hr`: boolean, do we expect a large percentage of the total vote within 12 hours of poll closing?
 `rating`: int, range 3 to -3 where 3 is locked Democratic and -3 is locked Republican and 0 is a swing state
 
-Export your Google credentials as a JSON object. (This is a pretty good explainer.)[https://cloud.google.com/docs/authentication/getting-started] Save this file as `credentials.json` (it's gitignored) in the root of this project.
+Export your Google credentials as a JSON object. (This is a pretty good explainer.](https://cloud.google.com/docs/authentication/getting-started) Save this file as `credentials.json` (it's gitignored) in the root of this project.
 
 ## Usage
 ```sh
