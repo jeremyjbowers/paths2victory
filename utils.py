@@ -29,13 +29,13 @@ def x_to_bool(possible_bool):
     return False
 
 
-def subset_sum(numbers, target, partial=[], partial_sum=0):
-    if partial_sum == target:
-        yield partial
+def elect_paths(states, target, paths=[], paths_sum=0):
+    if paths_sum == target:
+        yield paths
 
-    if partial_sum >= target:
-        yield partial
+    if paths_sum >= target:
+        yield paths
 
-    for i, n in enumerate(numbers):
-        remaining = numbers[i + 1:]
-        yield from subset_sum(remaining, target, partial + [n], partial_sum + n['ev'])
+    for i, n in enumerate(states):
+        remaining = states[i + 1:]
+        yield from elect_paths(remaining, target, paths + [n], paths_sum + n['ev'])

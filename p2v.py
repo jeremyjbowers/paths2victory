@@ -37,7 +37,7 @@ for cand in settings.CANDIDATES:
 
     print(f"{cand['name']} has {cand_evs} locked-in EVs")
 
-    paths = utils.subset_sum(swing, 270 - cand_evs)
+    paths = utils.elect_paths(swing, 270 - cand_evs)
 
     payload = []
 
