@@ -14,7 +14,7 @@ states = [{
     "pollclose": a['first_results'],
     "90pct12hrs": utils.x_to_bool(a['90pct12hr']), 
     "swing": utils.x_to_bool(a['swing2']), 
-    "rating": int(a['bowers'])
+    "rating": int(a['rating'])
  } for a in sheet]
 
 swing = [a for a in states if a['swing'] == True]
