@@ -8,13 +8,13 @@ Start a Google sheet with your race ratings. Here's what we expect as headers:
 ```
 state	first_results	ev	swing	swing2	90pct12hr rating
 ```
-`state`: string, a state abbreviation
-`first_results`: string, a parseable timestamp for a time when first results could be announced
-`ev`: int, a number of electoral votes
-`swing`: boolean, is this in a group of swing states?
-`swing2`: boolean, is this in an expanded group of swing states?
-`90pct12hr`: boolean, do we expect a large percentage of the total vote within 12 hours of poll closing?
-`rating`: int, range 3 to -3 where 3 is locked Democratic and -3 is locked Republican and 0 is a swing state
+* `state`: string, a state abbreviation
+* `first_results`: string, a parseable timestamp for a time when first results could be announced
+* `ev`: int, a number of electoral votes
+* `swing`: boolean, is this in a group of swing states?
+* `swing2`: boolean, is this in an expanded group of swing states?
+* `90pct12hr`: boolean, do we expect a large percentage of the total vote within 12 hours of poll closing?
+* `rating`: int, range 3 to -3 where 3 is locked Democratic and -3 is locked Republican and 0 is a swing state
 
 Export your Google credentials as a JSON object. (This is a pretty good explainer.](https://cloud.google.com/docs/authentication/getting-started) Save this file as `credentials.json` (it's gitignored) in the root of this project.
 
