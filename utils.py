@@ -34,7 +34,7 @@ def subset_sum(numbers, target, partial=[], partial_sum=0):
         yield partial
 
     if partial_sum >= target:
-        return
+        yield partial
 
     for i, n in enumerate(numbers):
         remaining = numbers[i + 1:]
