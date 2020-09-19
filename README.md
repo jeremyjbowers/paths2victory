@@ -4,7 +4,7 @@ Inspired by [this lovely Mike Bostock project](https://source.opennews.org/artic
 
 ## Getting started
 
-Start a Google sheet with your race ratings. Here's what we expect as headers:
+1. Start a Google sheet with your race ratings. Here's what we expect as headers:
 ```
 state	first_results	ev	swing	swing2	90pct12hr rating
 ```
@@ -16,7 +16,9 @@ state	first_results	ev	swing	swing2	90pct12hr rating
 * `90pct12hr`: boolean, do we expect a large percentage of the total vote within 12 hours of poll closing?
 * `rating`: int, range 3 to -3 where 3 is locked Democratic and -3 is locked Republican and 0 is a swing state
 
-Export your Google credentials as a JSON object. (This is a pretty good explainer.](https://cloud.google.com/docs/authentication/getting-started) Save this file as `credentials.json` (it's gitignored) in the root of this project.
+2. Export some environment variables. You need `SHEET_ID` to correspond to the ID of your Google sheet and `SHEET_RANGE` to correspond to the range of cells you'd like to capture for use.
+
+3. Save your Google auth credentials as a JSON file. [This is a pretty good explainer.](https://cloud.google.com/docs/authentication/getting-started) Save the resulting file as `credentials.json` (it's gitignored) and make sure it's in the root of this project.
 
 ## Usage
 ```sh
