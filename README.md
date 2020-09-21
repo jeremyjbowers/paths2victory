@@ -32,7 +32,7 @@ p2v.py
 This produces a JSON file for each of the candidates listed in `settings.CANDIDATES` using their `slug` as the namespace for the file.
 
 ### Sample output
-```
+```json
 [
  {
   "evs": 271,
