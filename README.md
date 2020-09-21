@@ -67,5 +67,6 @@ This produces a JSON file for each of the candidates listed in `settings.CANDIDA
   ],
   "state_string": "FL (29), GA (16), MI (16)",
   "num_states": 3
- } ...
+ }
+]
 ```
