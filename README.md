@@ -33,144 +33,39 @@ This produces a JSON file for each of the candidates listed in `settings.CANDIDA
 
 ### Sample output
 ```
-Joe Biden has 222 locked-in EVs
-Winning path: Joe Biden 270 EVs via NV (6), NE02 (1), MI (16), WI (10), NH (4), AZ (11)
-Winning path: Joe Biden 270 EVs via NV (6), NE02 (1), MI (16), WI (10), NC (15)
-Winning path: Joe Biden 270 EVs via NV (6), NE02 (1), MI (16), PA (20), NH (4), ME02 (1)
-Winning path: Joe Biden 270 EVs via NV (6), NE02 (1), MI (16), NH (4), NC (15), IA (6)
-Winning path: Joe Biden 270 EVs via NV (6), NE02 (1), MI (16), OH (18), IA (6), ME02 (1)
-Winning path: Joe Biden 270 EVs via NV (6), NE02 (1), WI (10), PA (20), NH (4), IA (6), ME02 (1)
-Winning path: Joe Biden 270 EVs via NV (6), NE02 (1), WI (10), PA (20), AZ (11)
-Winning path: Joe Biden 270 EVs via NV (6), NE02 (1), WI (10), NH (4), AZ (11), NC (15), ME02 (1)
-Winning path: Joe Biden 270 EVs via NV (6), NE02 (1), WI (10), NH (4), AZ (11), GA (16)
-Winning path: Joe Biden 270 EVs via NV (6), NE02 (1), WI (10), NC (15), GA (16)
-Winning path: Joe Biden 270 EVs via NV (6), NE02 (1), PA (20), NH (4), AZ (11), IA (6)
-Winning path: Joe Biden 270 EVs via NV (6), NE02 (1), PA (20), NH (4), GA (16), ME02 (1)
-Winning path: Joe Biden 270 EVs via NV (6), NE02 (1), PA (20), NC (15), IA (6)
-Winning path: Joe Biden 270 EVs via NV (6), NE02 (1), NH (4), NC (15), GA (16), IA (6)
-Winning path: Joe Biden 270 EVs via NV (6), NE02 (1), FL (29), AZ (11), ME02 (1)
-Winning path: Joe Biden 270 EVs via NV (6), NE02 (1), GA (16), OH (18), IA (6), ME02 (1)
-Winning path: Joe Biden 270 EVs via NV (6), MI (16), WI (10), NH (4), AZ (11), ME02 (1)
-Winning path: Joe Biden 270 EVs via NV (6), MI (16), WI (10), NC (15), ME02 (1)
-Winning path: Joe Biden 270 EVs via NV (6), MI (16), WI (10), GA (16)
-Winning path: Joe Biden 270 EVs via NV (6), MI (16), PA (20), IA (6)
-Winning path: Joe Biden 270 EVs via NV (6), MI (16), NH (4), NC (15), IA (6), ME02 (1)
-Winning path: Joe Biden 270 EVs via NV (6), MI (16), NH (4), GA (16), IA (6)
-Winning path: Joe Biden 270 EVs via NV (6), MI (16), AZ (11), NC (15)
-Winning path: Joe Biden 270 EVs via NV (6), WI (10), PA (20), AZ (11), ME02 (1)
-Winning path: Joe Biden 270 EVs via NV (6), WI (10), NH (4), AZ (11), GA (16), ME02 (1)
-Winning path: Joe Biden 270 EVs via NV (6), WI (10), AZ (11), NC (15), IA (6)
-Winning path: Joe Biden 270 EVs via NV (6), WI (10), NC (15), GA (16), ME02 (1)
-Winning path: Joe Biden 270 EVs via NV (6), PA (20), NH (4), AZ (11), IA (6), ME02 (1)
-Winning path: Joe Biden 270 EVs via NV (6), PA (20), NH (4), OH (18)
-Winning path: Joe Biden 270 EVs via NV (6), PA (20), NC (15), IA (6), ME02 (1)
-Winning path: Joe Biden 270 EVs via NV (6), PA (20), GA (16), IA (6)
-Winning path: Joe Biden 270 EVs via NV (6), NH (4), NC (15), GA (16), IA (6), ME02 (1)
-Winning path: Joe Biden 270 EVs via NV (6), AZ (11), NC (15), GA (16)
-Winning path: Joe Biden 270 EVs via NE02 (1), MI (16), WI (10), PA (20), ME02 (1)
-Winning path: Joe Biden 270 EVs via NE02 (1), MI (16), WI (10), NH (4), AZ (11), IA (6)
-Winning path: Joe Biden 270 EVs via NE02 (1), MI (16), WI (10), NH (4), GA (16), ME02 (1)
-Winning path: Joe Biden 270 EVs via NE02 (1), MI (16), WI (10), NC (15), IA (6)
-Winning path: Joe Biden 270 EVs via NE02 (1), MI (16), PA (20), NH (4), IA (6), ME02 (1)
-Winning path: Joe Biden 270 EVs via NE02 (1), MI (16), PA (20), AZ (11)
-Winning path: Joe Biden 270 EVs via NE02 (1), MI (16), NH (4), AZ (11), NC (15), ME02 (1)
-Winning path: Joe Biden 270 EVs via NE02 (1), MI (16), NH (4), AZ (11), GA (16)
-Winning path: Joe Biden 270 EVs via NE02 (1), MI (16), NC (15), GA (16)
-Winning path: Joe Biden 270 EVs via NE02 (1), WI (10), PA (20), AZ (11), IA (6)
-Winning path: Joe Biden 270 EVs via NE02 (1), WI (10), PA (20), GA (16), ME02 (1)
-Winning path: Joe Biden 270 EVs via NE02 (1), WI (10), NH (4), AZ (11), NC (15), IA (6), ME02 (1)
-Winning path: Joe Biden 270 EVs via NE02 (1), WI (10), NH (4), AZ (11), GA (16), IA (6)
-Winning path: Joe Biden 270 EVs via NE02 (1), WI (10), NH (4), NC (15), OH (18)
-Winning path: Joe Biden 270 EVs via NE02 (1), WI (10), NC (15), GA (16), IA (6)
-Winning path: Joe Biden 270 EVs via NE02 (1), PA (20), NH (4), GA (16), IA (6), ME02 (1)
-Winning path: Joe Biden 270 EVs via NE02 (1), PA (20), AZ (11), NC (15), ME02 (1)
-Winning path: Joe Biden 270 EVs via NE02 (1), PA (20), AZ (11), GA (16)
-Winning path: Joe Biden 270 EVs via NE02 (1), NH (4), AZ (11), NC (15), GA (16), ME02 (1)
-Winning path: Joe Biden 270 EVs via NE02 (1), FL (29), AZ (11), IA (6), ME02 (1)
-Winning path: Joe Biden 270 EVs via NE02 (1), FL (29), OH (18)
-Winning path: Joe Biden 270 EVs via MI (16), WI (10), NH (4), AZ (11), IA (6), ME02 (1)
-Winning path: Joe Biden 270 EVs via MI (16), WI (10), NH (4), OH (18)
-Winning path: Joe Biden 270 EVs via MI (16), WI (10), NC (15), IA (6), ME02 (1)
-Winning path: Joe Biden 270 EVs via MI (16), WI (10), GA (16), IA (6)
-Winning path: Joe Biden 270 EVs via MI (16), PA (20), AZ (11), ME02 (1)
-Winning path: Joe Biden 270 EVs via MI (16), NH (4), AZ (11), GA (16), ME02 (1)
-Winning path: Joe Biden 270 EVs via MI (16), AZ (11), NC (15), IA (6)
-Winning path: Joe Biden 270 EVs via MI (16), NC (15), GA (16), ME02 (1)
-Winning path: Joe Biden 270 EVs via WI (10), PA (20), AZ (11), IA (6), ME02 (1)
-Winning path: Joe Biden 270 EVs via WI (10), PA (20), OH (18)
-Winning path: Joe Biden 270 EVs via WI (10), NH (4), AZ (11), GA (16), IA (6), ME02 (1)
-Winning path: Joe Biden 270 EVs via WI (10), NH (4), NC (15), OH (18), ME02 (1)
-Winning path: Joe Biden 270 EVs via WI (10), NH (4), GA (16), OH (18)
-Winning path: Joe Biden 270 EVs via WI (10), NC (15), GA (16), IA (6), ME02 (1)
-Winning path: Joe Biden 270 EVs via PA (20), NH (4), OH (18), IA (6)
-Winning path: Joe Biden 270 EVs via PA (20), AZ (11), GA (16), ME02 (1)
-Winning path: Joe Biden 270 EVs via NH (4), FL (29), NC (15)
-Winning path: Joe Biden 270 EVs via NH (4), AZ (11), NC (15), OH (18)
-Winning path: Joe Biden 270 EVs via FL (29), OH (18), ME02 (1)
-Winning path: Joe Biden 270 EVs via AZ (11), NC (15), GA (16), IA (6)
-Donald Trump has 163 locked-in EVs
-Winning path: Donald Trump 270 EVs via NV (6), NE02 (1), MI (16), WI (10), PA (20), NH (4), FL (29), NC (15), IA (6)
-Winning path: Donald Trump 270 EVs via NV (6), NE02 (1), MI (16), WI (10), PA (20), NH (4), AZ (11), NC (15), OH (18), IA (6)
-Winning path: Donald Trump 270 EVs via NV (6), NE02 (1), MI (16), WI (10), PA (20), NH (4), NC (15), GA (16), OH (18), ME02 (1)
-Winning path: Donald Trump 270 EVs via NV (6), NE02 (1), MI (16), WI (10), PA (20), FL (29), OH (18), IA (6), ME02 (1)
-Winning path: Donald Trump 270 EVs via NV (6), NE02 (1), MI (16), WI (10), NH (4), FL (29), GA (16), OH (18), IA (6), ME02 (1)
-Winning path: Donald Trump 270 EVs via NV (6), NE02 (1), MI (16), WI (10), FL (29), AZ (11), NC (15), OH (18), ME02 (1)
-Winning path: Donald Trump 270 EVs via NV (6), NE02 (1), MI (16), WI (10), FL (29), AZ (11), GA (16), OH (18)
-Winning path: Donald Trump 270 EVs via NV (6), NE02 (1), MI (16), PA (20), NH (4), FL (29), NC (15), GA (16)
-Winning path: Donald Trump 270 EVs via NV (6), NE02 (1), MI (16), PA (20), NH (4), AZ (11), NC (15), GA (16), OH (18)
-Winning path: Donald Trump 270 EVs via NV (6), NE02 (1), MI (16), PA (20), FL (29), AZ (11), OH (18), IA (6)
-Winning path: Donald Trump 270 EVs via NV (6), NE02 (1), MI (16), PA (20), FL (29), GA (16), OH (18), ME02 (1)
-Winning path: Donald Trump 270 EVs via NV (6), NE02 (1), MI (16), NH (4), FL (29), AZ (11), NC (15), OH (18), IA (6), ME02 (1)
-Winning path: Donald Trump 270 EVs via NV (6), NE02 (1), MI (16), NH (4), FL (29), AZ (11), GA (16), OH (18), IA (6)
-Winning path: Donald Trump 270 EVs via NV (6), NE02 (1), MI (16), FL (29), NC (15), GA (16), OH (18), IA (6)
-Winning path: Donald Trump 270 EVs via NV (6), NE02 (1), WI (10), PA (20), NH (4), FL (29), NC (15), GA (16), IA (6)
-Winning path: Donald Trump 270 EVs via NV (6), NE02 (1), WI (10), PA (20), NH (4), AZ (11), NC (15), GA (16), OH (18), IA (6)
-Winning path: Donald Trump 270 EVs via NV (6), NE02 (1), WI (10), PA (20), FL (29), GA (16), OH (18), IA (6), ME02 (1)
-Winning path: Donald Trump 270 EVs via NV (6), NE02 (1), WI (10), FL (29), AZ (11), NC (15), GA (16), OH (18), ME02 (1)
-Winning path: Donald Trump 270 EVs via NV (6), NE02 (1), PA (20), FL (29), AZ (11), NC (15), OH (18), IA (6), ME02 (1)
-Winning path: Donald Trump 270 EVs via NV (6), NE02 (1), PA (20), FL (29), AZ (11), GA (16), OH (18), IA (6)
-Winning path: Donald Trump 270 EVs via NV (6), NE02 (1), NH (4), FL (29), AZ (11), NC (15), GA (16), OH (18), IA (6), ME02 (1)
-Winning path: Donald Trump 270 EVs via NV (6), MI (16), WI (10), PA (20), NH (4), FL (29), NC (15), IA (6), ME02 (1)
-Winning path: Donald Trump 270 EVs via NV (6), MI (16), WI (10), PA (20), NH (4), FL (29), GA (16), IA (6)
-Winning path: Donald Trump 270 EVs via NV (6), MI (16), WI (10), PA (20), NH (4), AZ (11), NC (15), OH (18), IA (6), ME02 (1)
-Winning path: Donald Trump 270 EVs via NV (6), MI (16), WI (10), PA (20), NH (4), AZ (11), GA (16), OH (18), IA (6)
-Winning path: Donald Trump 270 EVs via NV (6), MI (16), WI (10), PA (20), FL (29), AZ (11), NC (15)
-Winning path: Donald Trump 270 EVs via NV (6), MI (16), WI (10), PA (20), NC (15), GA (16), OH (18), IA (6)
-Winning path: Donald Trump 270 EVs via NV (6), MI (16), WI (10), NH (4), FL (29), AZ (11), NC (15), GA (16)
-Winning path: Donald Trump 270 EVs via NV (6), MI (16), WI (10), FL (29), AZ (11), GA (16), OH (18), ME02 (1)
-Winning path: Donald Trump 270 EVs via NV (6), MI (16), PA (20), NH (4), FL (29), AZ (11), NC (15), IA (6)
-Winning path: Donald Trump 270 EVs via NV (6), MI (16), PA (20), NH (4), FL (29), NC (15), GA (16), ME02 (1)
-Winning path: Donald Trump 270 EVs via NV (6), MI (16), PA (20), NH (4), AZ (11), NC (15), GA (16), OH (18), ME02 (1)
-Winning path: Donald Trump 270 EVs via NV (6), MI (16), PA (20), FL (29), AZ (11), OH (18), IA (6), ME02 (1)
-Winning path: Donald Trump 270 EVs via NV (6), MI (16), NH (4), FL (29), AZ (11), GA (16), OH (18), IA (6), ME02 (1)
-Winning path: Donald Trump 270 EVs via NV (6), MI (16), FL (29), NC (15), GA (16), OH (18), IA (6), ME02 (1)
-Winning path: Donald Trump 270 EVs via NV (6), WI (10), PA (20), NH (4), FL (29), NC (15), GA (16), IA (6), ME02 (1)
-Winning path: Donald Trump 270 EVs via NV (6), WI (10), PA (20), NH (4), AZ (11), NC (15), GA (16), OH (18), IA (6), ME02 (1)
-Winning path: Donald Trump 270 EVs via NV (6), WI (10), PA (20), FL (29), AZ (11), NC (15), GA (16)
-Winning path: Donald Trump 270 EVs via NV (6), PA (20), NH (4), FL (29), AZ (11), NC (15), GA (16), IA (6)
-Winning path: Donald Trump 270 EVs via NV (6), PA (20), FL (29), AZ (11), GA (16), OH (18), IA (6), ME02 (1)
-Winning path: Donald Trump 270 EVs via NE02 (1), MI (16), WI (10), PA (20), NH (4), FL (29), AZ (11), NC (15), ME02 (1)
-Winning path: Donald Trump 270 EVs via NE02 (1), MI (16), WI (10), PA (20), NH (4), FL (29), AZ (11), GA (16)
-Winning path: Donald Trump 270 EVs via NE02 (1), MI (16), WI (10), PA (20), NH (4), NC (15), GA (16), OH (18), IA (6), ME02 (1)
-Winning path: Donald Trump 270 EVs via NE02 (1), MI (16), WI (10), PA (20), FL (29), NC (15), GA (16)
-Winning path: Donald Trump 270 EVs via NE02 (1), MI (16), WI (10), PA (20), AZ (11), NC (15), GA (16), OH (18)
-Winning path: Donald Trump 270 EVs via NE02 (1), MI (16), WI (10), FL (29), AZ (11), NC (15), OH (18), IA (6), ME02 (1)
-Winning path: Donald Trump 270 EVs via NE02 (1), MI (16), WI (10), FL (29), AZ (11), GA (16), OH (18), IA (6)
-Winning path: Donald Trump 270 EVs via NE02 (1), MI (16), PA (20), NH (4), FL (29), NC (15), GA (16), IA (6)
-Winning path: Donald Trump 270 EVs via NE02 (1), MI (16), PA (20), NH (4), AZ (11), NC (15), GA (16), OH (18), IA (6)
-Winning path: Donald Trump 270 EVs via NE02 (1), MI (16), PA (20), FL (29), GA (16), OH (18), IA (6), ME02 (1)
-Winning path: Donald Trump 270 EVs via NE02 (1), MI (16), FL (29), AZ (11), NC (15), GA (16), OH (18), ME02 (1)
-Winning path: Donald Trump 270 EVs via NE02 (1), WI (10), PA (20), NH (4), FL (29), AZ (11), NC (15), GA (16), ME02 (1)
-Winning path: Donald Trump 270 EVs via NE02 (1), WI (10), FL (29), AZ (11), NC (15), GA (16), OH (18), IA (6), ME02 (1)
-Winning path: Donald Trump 270 EVs via MI (16), WI (10), PA (20), NH (4), FL (29), AZ (11), GA (16), ME02 (1)
-Winning path: Donald Trump 270 EVs via MI (16), WI (10), PA (20), FL (29), AZ (11), NC (15), IA (6)
-Winning path: Donald Trump 270 EVs via MI (16), WI (10), PA (20), FL (29), NC (15), GA (16), ME02 (1)
-Winning path: Donald Trump 270 EVs via MI (16), WI (10), PA (20), AZ (11), NC (15), GA (16), OH (18), ME02 (1)
-Winning path: Donald Trump 270 EVs via MI (16), WI (10), NH (4), FL (29), AZ (11), NC (15), GA (16), IA (6)
-Winning path: Donald Trump 270 EVs via MI (16), WI (10), FL (29), AZ (11), GA (16), OH (18), IA (6), ME02 (1)
-Winning path: Donald Trump 270 EVs via MI (16), PA (20), NH (4), FL (29), NC (15), GA (16), IA (6), ME02 (1)
-Winning path: Donald Trump 270 EVs via MI (16), PA (20), NH (4), AZ (11), NC (15), GA (16), OH (18), IA (6), ME02 (1)
-Winning path: Donald Trump 270 EVs via MI (16), PA (20), FL (29), AZ (11), NC (15), GA (16)
-Winning path: Donald Trump 270 EVs via WI (10), PA (20), NH (4), FL (29), AZ (11), NC (15), OH (18)
-Winning path: Donald Trump 270 EVs via WI (10), PA (20), FL (29), AZ (11), NC (15), GA (16), IA (6)
+[
+ {
+  "evs": 271,
+  "states": [
+   {
+    "state": "FL",
+    "ev": 29
+   },
+   {
+    "state": "PA",
+    "ev": 20
+   }
+  ],
+  "state_string": "FL (29), PA (20)",
+  "num_states": 2
+ },
+ {
+  "evs": 283,
+  "states": [
+   {
+    "state": "FL",
+    "ev": 29
+   },
+   {
+    "state": "GA",
+    "ev": 16
+   },
+   {
+    "state": "MI",
+    "ev": 16
+   }
+  ],
+  "state_string": "FL (29), GA (16), MI (16)",
+  "num_states": 3
+ } ...
 ```
